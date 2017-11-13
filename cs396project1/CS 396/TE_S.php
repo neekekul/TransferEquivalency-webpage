@@ -6,12 +6,13 @@
 
 		$conn = new mysqli($servername, $username, $password, $database);			
 			
-			$three = 3;
-			$five = 5;
-			$schoolID = htmlspecialchars($_POST['search']);
-			$schoolname = mysqli_query($conn, "SELECT schoolname FROM universities WHERE schoolid = ".$schoolID."");
-			$sql = mysqli_query($conn, "SELECT course, title, hrs, wku, titlew, hrsw, andor, gened, colonnade FROM classes WHERE id = ".$schoolID."");
-			$row = mysqli_fetch_array($schoolname);
+		$schoolID = htmlspecialchars($_POST['search']);
+		
+		$schoolname = mysqli_query($conn, "SELECT schoolname FROM universities WHERE schoolid = ".$schoolID."");
+		$row = mysqli_fetch_array($schoolname);
+
+		$sql = mysqli_query($conn, "SELECT course, title, hrs, wku, titlew, hrsw, andor, gened, colonnade FROM classes WHERE id = ".$schoolID."");
+		
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
