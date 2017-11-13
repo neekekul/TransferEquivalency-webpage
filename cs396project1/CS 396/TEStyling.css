@@ -1,0 +1,123 @@
+body {
+	background-color: #E2D9B7;
+}
+
+p{
+	text-align: center;
+	font-family: Palatino, serif;
+	color: #333333;
+	font-size: 16px;
+	clear: left;
+}
+
+div {
+	width: 100%;
+	border: 2px solid #333333;
+}
+
+#header{
+	padding: 1em;
+	background-color: #B01E24;
+	clear: left;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	font-family: Palatino, sans-serif;
+}
+
+#footer{
+	padding: 1em;
+	background-color: #B01E24;
+	clear: left; 
+}
+
+#footer p{
+	text-align: center;
+	font-style: normal;
+	font-size: 20px;
+	color: white;
+	font-family: Palatino, serif;
+}
+
+#right{
+	float: right;
+	text-align: center;
+	background-color: #B01E24;
+	width: 100px;
+	height: 300px;
+	max-width: 400px;
+	max-height: 400px;
+	margin: 0;
+	padding: 1em;
+}
+
+#left{
+	float: left;
+	text-align: center;
+	font-family: Palatino, serif;
+	background-color: #B01E24;
+	width: 100px;
+	height: 300px;
+	max-width: 400px;
+	max-height: 400px;
+	margin: 0;
+	padding: 1em;
+}
+
+#left ul{
+	list-style-type: none;
+	padding: 4px;
+}
+
+#left ul a:link{
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#left ul a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#left ul a:active{
+	color: red;
+	background-color:transparent;
+	text-decoration: underline;
+}
+
+#left ul a:hover{
+	color: #333333;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#image{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding: 1em;
+}
+
+form{
+	text-align: center;
+}
+
+input[type=text]{
+	width: 230px;
+    box-sizing: border-box;
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('C:\\DBs\\htdocs\\CS 396\\if_search_107183.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=text]:focus {
+	width:50%;
+}
