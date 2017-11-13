@@ -47,7 +47,7 @@
 </footer>
 </div>
 <br/>
-<form action="TransferEquivalency-webpage-master/cs396project1/CS 396/TE_S.php" method="POST">
+<form action="/TransferEquivalency-webpage-master/cs396project1/CS 396/TE_S.php" method="POST">
 	<input type="text" name="search" placeholder="Search..." list="schools"/>
 	<datalist id="schools">
 		<?php
